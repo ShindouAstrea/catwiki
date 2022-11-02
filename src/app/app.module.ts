@@ -6,10 +6,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { FooterComponent } from './footer/footer.component';
+import { CatDetailsComponent } from './cat-details/cat-details.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    CatDetailsComponent,
+    HomePageComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
