@@ -1,11 +1,23 @@
 .search{
-    position: relative;
-   justify-content: center;
-   align-items: center; 
+    display: inline-block;
+    
 }
-input{
-    height: 40px;
-    border-radius: 20px;
-    border-color: white;
+.search button {
+    border : none;
+    background:none;
+    filter:invert(1);
+    
+   
+}
+.search input{
+    
+    border:none;
+    background: white;
+    height: 70px;
+    width: 400px;
+    border-radius: 60px;
     border-width: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+
 }
