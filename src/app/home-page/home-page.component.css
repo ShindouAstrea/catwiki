@@ -1,4 +1,33 @@
 .FirstHalfCard{
     background-image: url('../../assets/HeroImagemd.png');
     height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+:root{
+    --half-area: auto / 2;
+}
+.halfCard{
+    width: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+img{
+    margin-top: 200px;
+    width: 200px;
+    height: 90px;
+    filter : invert(1);
+    margin-left: 50px;
+}
+h2{
+    top:0;
+    font-family: 'Montserrat';
+    margin:0;
+    padding-left: 50px;
+   color: white;
+
 }
