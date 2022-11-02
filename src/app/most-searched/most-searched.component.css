@@ -1,0 +1,22 @@
+.MostSearchCard{
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #E3E1DC;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 18;
+    color:  #291507;
+    height: 22px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+hr{
+    border-top: 3px solid #291507;
+    width: 60px;
+    margin-left: 50px;
+}
