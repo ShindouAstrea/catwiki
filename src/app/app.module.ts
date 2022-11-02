@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CatDetailsComponent } from './cat-details/cat-details.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { HeaderComponent } from './header/header.component';
+import { MostSearchedComponent } from './most-searched/most-searched.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     FooterComponent,
     CatDetailsComponent,
     HomePageComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    HeaderComponent,
+    MostSearchedComponent
   ],
   imports: [
     BrowserModule,
