@@ -1,6 +1,17 @@
 .footer{
-    color: black;
-    height: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
     width: auto;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+h3{
+    z-index: 1;
+    color: aliceblue;
+   justify-content: center;
+   text-align: right;
+   margin-right:50px;
 }
